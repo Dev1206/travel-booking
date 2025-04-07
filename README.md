@@ -165,7 +165,7 @@ travel-booking/
 
 3. **Start the application**
    - Navigate to `http://localhost:8000/pages/index.php` in your browser
-   - Default admin credentials: admin@travelbooking.com / admin123
+   - Default admin credentials: admin@travel.com / admin123
    - Default user credentials: test@email.com / test123
 
 ## User Guides
