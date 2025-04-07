@@ -1,0 +1,132 @@
+/* Dark Theme - Modern Sleek */
+:root {
+    --primary-color: #6f42c1;
+    --secondary-color: #6c757d;
+    --success-color: #00b74a;
+    --info-color: #1266f1;
+    --warning-color: #ffa900;
+    --danger-color: #f93154;
+    --light-color: #2f3446;
+    --dark-color: #1a1c2d;
+    
+    --body-bg: #1a1c2d;
+    --navbar-bg: #2f3446;
+    --navbar-color: #ffffff;
+    --card-bg: #2f3446;
+    --text-primary: #ffffff;
+    --text-secondary: #b1b7c1;
+    --link-color: #6f42c1;
+    --border-color: #3f4458;
+}
+
+/* Apply theme variables */
+body {
+    background-color: var(--body-bg);
+    color: var(--text-primary);
+}
+
+.navbar-dark {
+    background-color: var(--navbar-bg) !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: var(--navbar-color) !important;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #5a37a0;
+    border-color: #5a37a0;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.border-primary {
+    border-color: var(--primary-color) !important;
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: #5a37a0;
+}
+
+/* Custom Components */
+.dashboard-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+.status-badge {
+    background-color: var(--light-color);
+    color: var(--text-primary);
+}
+
+.quick-action-btn {
+    background-color: var(--primary-color);
+    color: var(--navbar-color);
+}
+
+.quick-action-btn:hover {
+    background-color: #5a37a0;
+    color: var(--navbar-color);
+}
+
+/* Dark theme specific overrides */
+.table {
+    color: var(--text-primary);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+    color: var(--text-primary);
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    color: var(--text-primary);
+}
+
+.dropdown-menu {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+.dropdown-item {
+    color: var(--text-primary);
+}
+
+.dropdown-item:hover {
+    background-color: var(--primary-color);
+    color: var(--navbar-color);
+}
+
+.form-control {
+    background-color: var(--dark-color);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.form-control:focus {
+    background-color: var(--dark-color);
+    border-color: var(--primary-color);
+    color: var(--text-primary);
+} 

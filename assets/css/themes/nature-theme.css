@@ -1,0 +1,138 @@
+/* Nature Theme - Earthy and Fresh */
+:root {
+    --primary-color: #2d6a4f;
+    --secondary-color: #95a5a6;
+    --success-color: #40916c;
+    --info-color: #48cae4;
+    --warning-color: #ffd166;
+    --danger-color: #ef476f;
+    --light-color: #f1faee;
+    --dark-color: #1b4332;
+    
+    --body-bg: #f1faee;
+    --navbar-bg: #2d6a4f;
+    --navbar-color: #ffffff;
+    --card-bg: #ffffff;
+    --text-primary: #1b4332;
+    --text-secondary: #52796f;
+    --link-color: #2d6a4f;
+    --border-color: #b7e4c7;
+}
+
+/* Apply theme variables */
+body {
+    background-color: var(--body-bg);
+    color: var(--text-primary);
+}
+
+.navbar-dark {
+    background-color: var(--navbar-bg) !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: var(--navbar-color) !important;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #1b4332;
+    border-color: #1b4332;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.border-primary {
+    border-color: var(--primary-color) !important;
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: #1b4332;
+}
+
+/* Custom Components */
+.dashboard-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+.status-badge {
+    background-color: var(--light-color);
+    color: var(--text-primary);
+}
+
+.quick-action-btn {
+    background-color: var(--primary-color);
+    color: var(--navbar-color);
+}
+
+.quick-action-btn:hover {
+    background-color: #1b4332;
+    color: var(--navbar-color);
+}
+
+/* Nature theme specific styles */
+.card {
+    border-radius: 15px;
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+.form-control {
+    border-color: var(--border-color);
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(45, 106, 79, 0.25);
+}
+
+.table {
+    color: var(--text-primary);
+}
+
+.dropdown-menu {
+    border-radius: 12px;
+    border-color: var(--border-color);
+}
+
+.dropdown-item:hover {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+}
+
+/* Custom gradients */
+.gradient-primary {
+    background: linear-gradient(45deg, #2d6a4f 0%, #40916c 100%) !important;
+}
+
+.gradient-success {
+    background: linear-gradient(45deg, #40916c 0%, #95d5b2 100%) !important;
+}
+
+.gradient-info {
+    background: linear-gradient(45deg, #48cae4 0%, #90e0ef 100%) !important;
+} 
